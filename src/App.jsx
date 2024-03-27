@@ -20,7 +20,6 @@ const App = ()=> {
     <div className="bg-no-repeat bg-center m-0 bg-[#E2F4C5]">
       <Experience />
     </div>
-    <Model/>
     <Features/>
     <HowItWorks/>
     <Ceo/>
