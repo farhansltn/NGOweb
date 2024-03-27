@@ -17,7 +17,7 @@ const App = ()=> {
     <Navbar/>
     <Hero/>
     <Highlights/>
-    <div className="bg-no-repeat bg-center m-0 bg-[#E2F4C5]">
+    <div className=" bg-[#E2F4C5]">
       <Experience />
     </div>
     <Features/>
