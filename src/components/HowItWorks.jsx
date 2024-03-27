@@ -55,7 +55,7 @@ const HowItWorks = () => {
                     Capture the moment with us.
                 </p>
             </div>
-                <div className="hiw-text-container mt-10">
+              <div className="hiw-text-container mt-10">
                 <div className="flex flex-1 justify-center flex-col">
                   <p className="hiw-text g_fadeIn roboto-light ">
                     A17 Pro is an entirely new class of iPhone chip that delivers our {' '}
