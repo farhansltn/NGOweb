@@ -120,7 +120,7 @@ background: linear-gradient(90deg, rgba(255,255,255,0.17565217391304344) 0%, rgb
   }
 
   .feature-video-container {
-    @apply w-full flex flex-col md:flex-row gap-5 items-center
+    @apply w-full flex flex-col md:flex-row gap-5 items-center mb-5
   }
 
   .link {
