@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <section className="w-full nav-height relative bg-black">
       <div className="h-5/6 w-full flex-center flex-col">
-        <p id="home" className="hero-title roboto-light">Introducing to Our Communities!</p>
+        <p id="home" className="hero-title mb-6">Sekolah Kebon Kemang Proudly Presents</p>
         <div id='about' className="md:w-full w-4/6 h-4/6">
           <video className='pointer-events-none' autoPlay muted playsInline={true} key={videoSrc} >
             <source src={videoSrc} type='video/mp4'/>
@@ -35,7 +35,6 @@ const Hero = () => {
       <div id='cta' className="flex-col flex items-center 
       opacity-0 translate-y-20">
         <a href="#highlights" className='roboto-medium btn sm:mt-20'>See Us</a>
-        <p className='font-normal text-xl roboto-light text-slate-200'>Our Work and Project!</p>
       </div>
     </section>
   )

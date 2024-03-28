@@ -61,7 +61,7 @@ const Features = () => {
                                 <img src={explore2Img} alt='titanium' className='feature-video g_grow'/>
                             </div>
                         </div>
-                        <div className="feature-text-container">
+                        <div className="feature-text-container ">
                             <div className="flex-1 flex-center">
                                 <p className="feature-text g_text roboto-light">
                                     We are proud to serve{' '}

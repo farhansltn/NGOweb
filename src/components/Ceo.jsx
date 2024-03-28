@@ -11,8 +11,7 @@ const FeedBackCard = ({index, testimonial, name,
 designation, company, image}) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black p-10 
-    rounded-3x1 w-[250px]">
+    className="bg-[#CC7351] rounded-3xl w-[250px] p-8">
       <p className="text-white font-black text-[48px]">"</p>
       <div className="mt-1">
         <p className="text-white tracking-wider text-[18px]">
@@ -44,15 +43,15 @@ const Feedbacks = () => {
   },[])
   return (
     <div className="rounded-[20px]">
-      <div className="rounded-2x1 min-h-[200px]">
-          <h1 id='ceo_title' className="section-heading_dark roboto-light">
+      <div className="rounded-2xl min-h-[200px]">
+          <h1 id='ceo_title' className="section-heading_red text-[#D24545] roboto-light">
             Greetings
           </h1>
           <h2 id='ceo_subtitle' className="text-[#FDA403] text-3xl lg:text-5xl roboto-light font-semibold">
             From our Ceo
           </h2>
       </div>
-      <div className='flex flex-wrap gap-5'>
+      <div className='flex flex-wrap justify-center gap-5'>
         {testimonials.map((testimonial, index) => (
           <FeedBackCard
           key={testimonial.name}

@@ -194,7 +194,8 @@ import {
       designation: "Junior Research Executive",
       company: "BOI Research",
       image: ceo3,
-    },{
+    },
+    {
       testimonial:
         "The design and choice of colour is great. Website is easy to navigate and provide helpful information.",
       name: "Adam Prakosa",
